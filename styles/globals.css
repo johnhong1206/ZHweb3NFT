@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+.gradient-bg {
+  background-color: #0e0f13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 0%, rgb(47, 106, 106) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(28, 218, 243, 0.3) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(243, 28, 225, 0.2) 0, transparent 50%),
+    radial-gradient(at 20% 0%, rgb(114, 39, 89) 0, transparent 50%);
+}
+.eth-card {
+  background-color: #0f0e13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 0%, rgb(47, 106, 106) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgb(255, 0, 170) 0, transparent 50%);
+}
+
+.loginbutton {
+  background-color: #0e0f13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 100% 0%, rgb(47, 106, 106) 0, transparent 50%),
+    radial-gradient(at 60% 0%, rgba(28, 218, 243, 0.3) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(243, 28, 225, 0.2) 0, transparent 50%),
+    radial-gradient(at 20% 0%, rgb(114, 39, 89) 0, transparent 50%);
+}
+.loginbutton:hover {
+  background-color: #0e0f13;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsla(253, 16%, 7%, 1) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 20% 0%, rgb(47, 106, 106) 0, transparent 50%),
+    radial-gradient(at 50% 0%, rgba(28, 218, 243, 0.3) 0, transparent 50%),
+    radial-gradient(at 60% 0%, rgba(243, 28, 225, 0.2) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(114, 39, 89) 0, transparent 50%);
+}
